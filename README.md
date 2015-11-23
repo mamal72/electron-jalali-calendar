@@ -9,7 +9,7 @@
 
 You can clone this repository and build the app using tools like [electron-prebuilt](https://github.com/mafintosh/electron-prebuilt). I didn't test it on `Windows` or `Linux`, but I made binaries for them and it works.
 
-There is also an OS X prebuilt binary in the `bin` directory of the repo. You can simply download the zip file, extract it and drag the single binary app to your `Applications` folder.
+There is also an OS X prebuilt binary in the [releases](https://github.com/mamal72/electron-jalali-calendar/releases). You can simply download the zip file, extract it and drag the single binary app to your `Applications` folder.
 
 
 # Ideas?
