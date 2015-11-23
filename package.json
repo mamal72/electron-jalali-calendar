@@ -1,0 +1,57 @@
+{
+  "name": "electron-jalali-calendar",
+  "version": "1.0.0",
+  "description": "Simple Jalali calendar in the tray menubar built by React and Electron",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && grunt default",
+    "start": "npm run build && electron ./dist/",
+    "package": "npm run build && electron-packager . JalaliCalendar --icon=icon.icns --platform=darwin --arch=x64 --version=0.35.1 --out=./bin --prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mamal72/electron-jalali-calendar.git"
+  },
+  "keywords": [
+    "jalali",
+    "date",
+    "calendar",
+    "menubar",
+    "react",
+    "electron",
+    "persian"
+  ],
+  "author": "Mohamad Jahani <m4m4lj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamal72/electron-jalali-calendar/issues"
+  },
+  "homepage": "https://github.com/mamal72/electron-jalali-calendar#readme",
+  "dependencies": {
+    "menubar": "^2.3.0",
+    "moment-jalaali": "^0.3.8",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.3",
+    "react-persian-datepicker": "^1.2.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.5",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "electron-debug": "^0.5.1",
+    "electron-prebuilt": "^0.35.0",
+    "eslint": "^1.10.1",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-react": "^3.10.0",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-eslint": "^17.3.1",
+    "load-grunt-tasks": "^3.3.0",
+    "webpack": "^1.12.8"
+  }
+}

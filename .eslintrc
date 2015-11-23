@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "comma-dangle": [2, "never"]
+  }
+}

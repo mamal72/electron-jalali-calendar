@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+html, button, .today {
+  font-family: 'Vazir';
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+.today {
+  text-align: center;
+  direction: rtl;
+  margin: 15px 0 10px 0;
+}
